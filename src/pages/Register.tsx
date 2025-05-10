@@ -45,8 +45,10 @@ const Register: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Aqui você implementaria a lógica de registro
-    console.log('Register:', formData);
+    alert('Registro realizado com sucesso! Agora faça login.');
+    setTimeout(() => {
+      navigate('/login');
+    }, 1000);
   };
 
   return (
