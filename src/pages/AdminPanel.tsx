@@ -11,7 +11,6 @@ import {
   TableRow,
   Switch,
   FormControlLabel,
-  Divider,
   Alert,
   Grid,
   Tabs,
@@ -44,15 +43,6 @@ interface RolePermissions {
   canEditSurgery: boolean;
   canDeleteSurgery: boolean;
 }
-
-// Dados simulados de cirurgias por médico
-const surgeryData = [
-  { name: 'Dr. João Silva', cirurgias: 15 },
-  { name: 'Dra. Maria Santos', cirurgias: 12 },
-  { name: 'Dr. Pedro Oliveira', cirurgias: 8 },
-  { name: 'Dra. Ana Costa', cirurgias: 10 },
-  { name: 'Dr. Carlos Souza', cirurgias: 6 }
-];
 
 // Dados simulados de desempenho dos médicos com datas
 const performanceData = {

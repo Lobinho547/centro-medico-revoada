@@ -27,7 +27,6 @@ import {
   Edit as EditIcon,
   Delete as DeleteIcon,
   Add as AddIcon,
-  Person as PersonIcon
 } from '@mui/icons-material';
 
 // Lista de tags disponíveis

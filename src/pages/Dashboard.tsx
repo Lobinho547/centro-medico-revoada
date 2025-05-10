@@ -1,10 +1,7 @@
 import React from 'react';
 import { Box, Grid, Paper, Typography } from '@mui/material';
-import { useNavigate } from 'react-router-dom';
 
 const Dashboard: React.FC = () => {
-  const navigate = useNavigate();
-
   return (
     <Box>
       <Typography variant="h4" gutterBottom>

@@ -5,11 +5,9 @@ import {
   TextField,
   Button,
   Paper,
-  Container,
   Link,
   InputAdornment,
-  IconButton,
-  Divider
+  IconButton
 } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import InstagramIcon from '@mui/icons-material/Instagram';

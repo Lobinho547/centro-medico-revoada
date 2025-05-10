@@ -6,7 +6,6 @@ import Sidebar from './components/Sidebar';
 import Logo from './components/Logo';
 import Dashboard from './pages/Dashboard';
 import MedicalSpecialties from './pages/MedicalSpecialties';
-import Recruitment from './pages/Recruitment';
 import Psychotechnical from './pages/Psychotechnical';
 import EagleCourse from './pages/EagleCourse';
 import AdminPanel from './pages/AdminPanel';

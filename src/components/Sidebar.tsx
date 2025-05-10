@@ -18,7 +18,6 @@ import {
   AdminPanelSettings as AdminPanelIcon,
   MedicalServices as SurgeriesIcon,
   Assignment as RegistrationRequestsIcon,
-  People as PeopleIcon,
   Group as GroupIcon
 } from '@mui/icons-material';
 import { useNavigate, useLocation } from 'react-router-dom';
