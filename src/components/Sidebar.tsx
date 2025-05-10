@@ -12,7 +12,6 @@ import {
 import {
   Dashboard as DashboardIcon,
   LocalHospital as MedicalSpecialtiesIcon,
-  Work as RecruitmentIcon,
   Psychology as PsychotechnicalIcon,
   School as EagleCourseIcon,
   AdminPanelSettings as AdminPanelIcon,
