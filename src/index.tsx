@@ -3,10 +3,6 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import connectDB from './database/connection';
-
-// Conectar ao banco de dados MongoDB
-connectDB().catch(console.error);
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
